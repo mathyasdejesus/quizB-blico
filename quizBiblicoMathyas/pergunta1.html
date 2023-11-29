@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="quiz1">
+
+        <h1>Qual o livro após: </h1>
+        <h2 id="livroPerguntado"></h2>
+        <div id="perguntaResposta">
+            <input id="respostaInput" type="text" placeholder="Digite sua resposta:">
+            <button id="enviarResposta" onclick="conferir()">Conferir</button>
+            <div id="points">
+                <label>Acertos:</label>
+                <span id="ponto">0</span>
+                <label>Erros:</label>
+                <span id="erro">0</span>
+
+            </div>
+        </div>
+
+
+
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
